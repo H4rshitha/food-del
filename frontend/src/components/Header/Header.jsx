@@ -1,20 +1,10 @@
 import React from 'react'
 import './Header.css'
-import headerImg from '../assets/header_img.png';
 
 const Header = () => {
   return (
     
-      <div className="header"
-      style={{
-          backgroundImage: `url(${headerImg})`,
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'contain',
-          height: '34vw',
-          margin: '30px auto',
-          position: 'relative',
-        }}
-      >
+      <div className="header">
 
         <div className="header-contents">
             <h2>Order Your Favourite Food Here</h2>
@@ -23,7 +13,7 @@ const Header = () => {
         </div>
       </div>
     
-  )
-}
+  );
+};
 
 export default Header
