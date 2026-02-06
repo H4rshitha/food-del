@@ -4,7 +4,7 @@ import headerImg from '../assets/header_img.png';
 
 const Header = () => {
   return (
-    <div>
+    
       <div className="header"
       style={{
           backgroundImage: `url(${headerImg})`,
@@ -22,7 +22,7 @@ const Header = () => {
             <button>View Menu</button>
         </div>
       </div>
-    </div>
+    
   )
 }
 
